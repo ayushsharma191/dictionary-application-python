@@ -16,7 +16,7 @@ def translate(w):
     if w in data:
         return data[w]
 
-    #condition 2 : if the user input word sarts with a Captal letter in the dictionary, this shoulf be action.
+    #condition 2 : if the user input word sarts with a Captal letter in the dictionary, this should be action.
     elif w.title() in data:
         return data[w.title()]
 
